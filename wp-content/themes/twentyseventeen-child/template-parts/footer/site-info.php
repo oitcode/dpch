@@ -16,6 +16,6 @@
 	}
 	?>
 	<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'twentyseventeen' ) ); ?>" class="imprint">
-		<?php printf( __( '&copy; 2018 John Doe | %s', 'twentyseventeen' ), 'PHP' ); ?>
+		<?php printf( __( '&copy; 2018 Deependra Kshetri %s', 'twentyseventeen' ), ' ' ); ?>
 	</a>
 </div><!-- .site-info -->

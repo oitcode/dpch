@@ -87,3 +87,11 @@ if ( !defined('ABSPATH') )
 
 /** Sets up WordPress vars and included files. */
 require_once(ABSPATH . 'wp-settings.php');
+
+/**
+ *  Added by developer after this.
+ **/
+
+/* To make plugin install while doing local dev.*/
+define('FS_METHOD', 'direct');
+
